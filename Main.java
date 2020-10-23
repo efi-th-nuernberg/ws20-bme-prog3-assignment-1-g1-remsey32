@@ -8,11 +8,11 @@ class Main {
       int result = number + predecessor;
       
       if (number % 5 == 0) {
-        System.out.println(number + " Zahl ist durch 5 teilbar!");
+        System.out.println(number + " ist durch 5 teilbar!");
       }
       
       if (number % 10 == 9) {
-        System.out.println(number + " Zahl endet mit 9");
+        System.out.println(number + " endet mit 9");
       }
       
       if ((number + predecessor) % 3 == 0) {
